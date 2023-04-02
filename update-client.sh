@@ -242,8 +242,7 @@ then
 fi
 
 # ZSH
-echo Updating ZSH
-env ZSH=$ZSH sh $ZSH/tools/upgrade.sh
+$ZSH/tools/upgrade.sh
 echo Updating powerlevel10k
 cd ~/.oh-my-zsh/custom/themes/powerlevel10k
 git pull origin
